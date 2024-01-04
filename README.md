@@ -7,13 +7,18 @@ Due to restrictions imposed by our affiliations, we are unable to share the comp
 ```
 MFA-TDNN model script: ECAPA_tc_0813.py
 Training Configuration script: train_ecapa_tc_0813.yaml
+Testing Configuration script: verification_ecapa_tc_0813.yaml
 ```
 
 # Usage:
 ```
 The system is built based on SpeechBrain (https://github.com/speechbrain/speechbrain)
 Copy the model script 'ECAPA_tc_0813.py' to '/speechbrain/speechbrain/lobes/models/'
-Copy the configuration file 'train_ecapa_tc_0813.yaml' to '/speechbrain/recipes/VoxCeleb/SpeakerRec/hparams/'
+Copy the training configuration file 'train_ecapa_tc_0813.yaml' to '/speechbrain/recipes/VoxCeleb/SpeakerRec/hparams/' (You may need to change the paths, e.g. rir_folder and data_folder)
+Copy the testing configuration file 'verification_ecapa_tc_0813.yaml' to '/speechbrain/recipes/VoxCeleb/SpeakerRec/hparams/' (You may need to change the paths, e.g. voxceleb_source, data_folder and pretrain_path)
+
+Training: python train_speaker_embeddings.py hparams/train_ecapa_tc_0813.yaml
+Testing:
 ```
 
 # Cite:
