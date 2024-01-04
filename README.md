@@ -1,1 +1,1 @@
-# MFA: TDNN with Multi-Scale Frequency-Channel Attention for Text-Independent Speaker Verification with Short UtterancesMFA: TDNN with Multi-Scale Frequency-Channel Attention for Text-Independent Speaker Verification with Short Utterances
+# MFA: TDNN with Multi-Scale Frequency-Channel Attention for Text-Independent Speaker Verification with Short Utterances
