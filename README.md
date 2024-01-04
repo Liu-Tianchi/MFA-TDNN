@@ -4,8 +4,10 @@
 Due to restrictions imposed by our affiliations, we are unable to share the complete system and pre-trained models. We appreciate everyone's support and attention towards this work. As a result, we have decided to share the model script and training configuration in the hope that it will be helpful for the research community. Important: for academic research purposes only.
 
 # Scripts:https://github.com/sn1ff1918/MFA-TDNN/tree/main
+```
 MFA-TDNN model script: ECAPA_tc_0813.py
 Training Configuration script: train_ecapa_tc_0813.yaml
+```
 
 # Usage:
 ```
