@@ -20,7 +20,7 @@ Copy the testing configuration file 'verification_ecapa_tc_0813.yaml' to '/speec
   (You may need to change the paths, e.g. voxceleb_source, data_folder and pretrain_path)
 
 Training: python train_speaker_embeddings.py hparams/train_ecapa_tc_0813.yaml
-Testing:
+Testing: python speaker_verification_cosine.py hparams/verification_ecapa_tc_0813.yaml
 ```
 
 # Cite:
