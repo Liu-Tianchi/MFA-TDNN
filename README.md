@@ -13,6 +13,8 @@ Testing Configuration script: verification_ecapa_tc_0813.yaml
 # Usage:
 ```
 The system is built based on SpeechBrain (https://github.com/speechbrain/speechbrain)
+Please kindly follow the SpeechBrain instruction to setup first.
+
 Copy the model script 'ECAPA_tc_0813.py' to '/speechbrain/speechbrain/lobes/models/'
 Copy the training configuration file 'train_ecapa_tc_0813.yaml' to '/speechbrain/recipes/VoxCeleb/SpeakerRec/hparams/'
   (You may need to change the paths, e.g. rir_folder and data_folder)
