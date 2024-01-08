@@ -1,7 +1,8 @@
 # (MFA-TDNN) MFA: TDNN with Multi-Scale Frequency-Channel Attention for Text-Independent Speaker Verification with Short Utterances
 
 # Paper Link:
-https://arxiv.org/abs/2202.01624
+arXiv: https://arxiv.org/abs/2202.01624
+IEEE ICASSP 2022: https://ieeexplore.ieee.org/document/9747021
 
 # Note: 
 Due to restrictions imposed by our affiliations, we are unable to share the complete system and pre-trained models. We appreciate everyone's support and attention towards this work. As a result, we have decided to share the model script and training configuration in the hope that it will be helpful for the research community. Important: for academic research purposes only.
